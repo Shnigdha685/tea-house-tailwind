@@ -7,8 +7,8 @@
     <!-- tailwind link  -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="container mx-auto">
-    <header>
+<body>
+    <header class="container mx-auto">
         <!-- banner section  -->
         <section class="my-16">
             <div class="md:flex justify-between items-center md:p-0 p-3">
@@ -39,7 +39,7 @@
             </div>
         </section>
     </header>
-    <main>
+    <main class="container mx-auto">
         <!-- features propducts section  -->
         <section class="mb-32">
             <div class="text-center space-y-5">
@@ -156,8 +156,59 @@
                     </div>
                 </div>
             </div>
-            <!-- bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg py-20 px-16  -->
+        </section>
+        <!-- news and events section  -->
+        <section class="mb-32">
+            <div class="text-center mb-12">
+                <h3 class="text-4xl font-bold text-[#1c1c1c]">News & Events</h3>
+                <p class="text-base font-normal text-[#777777] mt-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, 
+                    <br>
+                    by injected humour, or randomised words which don't look even slightly believable. </p>
+            </div>
+            <div class="p-6 md:flex gap-6">
+                <div class="p-5 border border-[#d2d2d2] space-y-5 rounded-lg">
+                    <img src="images/news-1.png" alt="">
+                    <div class="space-y-2">
+                        <p class="text-base font-normal text-[#777777]">Feb 05, 2027</p>
+                        <h4 class="text-xl font-bold text-[#1c1c1c]">Collecting 8 points for discount</h4>
+                        <p class="text-base font-normal text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="p-5 border border-[#d2d2d2] space-y-5 rounded-lg">
+                    <img src="images/news-1.png" alt="">
+                    <div class="space-y-2">
+                        <p class="text-base font-normal text-[#777777]">Feb 05, 2027</p>
+                        <h4 class="text-xl font-bold text-[#1c1c1c]">Collecting 8 points for discount</h4>
+                        <p class="text-base font-normal text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="p-5 border border-[#d2d2d2] space-y-5 rounded-lg">
+                    <img src="images/news-1.png" alt="">
+                    <div class="space-y-2">
+                        <p class="text-base font-normal text-[#777777]">Feb 05, 2027</p>
+                        <h4 class="text-xl font-bold text-[#1c1c1c]">Collecting 8 points for discount</h4>
+                        <p class="text-base font-normal text-[#777777]">There are many variations of passages of Lorem Ipsum available.</p>
+                        <a class="text-base font-bold text-[#1c1c1c]" href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
+    <!-- footer section  -->
+    <footer class="bg-gradient-to-r from-red-200 to-red-100 md:py-32 md:px-56 p-5">
+        <div class="flex justify-between md:gap-20">
+            <div>
+                <img src="images/cup.png" alt="">
+            </div>
+            <div class="flex md:gap-10 items-center gap-4">
+                <p class="text-[#494949] font-medium text-xl">Ready to get started?</p>
+                <button class="text-white font-semibold p-4 rounded-xl text-xl bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
+                    Get Started
+                </button>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
